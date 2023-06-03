@@ -24,16 +24,24 @@ const relogio = setInterval(function time(){
 
     
      
-
-
+        
     if (hh >= 06){
         document.body.style.backgroundImage = "linear-gradient(140deg, #0367b8, #d3e203)"
+    }
+    if (hh >= 09){
+        document.body.style.backgroundImage = "linear-gradient(140deg,#01d3c8, #ffe600)"
     }
     if (hh >= 12){
         document.body.style.backgroundImage = "linear-gradient(140deg, #acb803, #b85b03)"
     }
+    if (hh >= 15){
+        document.body.style.backgroundImage = "linear-gradient(140deg,#c5d301, #ffbb00)"
+    }
     if (hh >= 18){
         document.body.style.backgroundImage = "linear-gradient(140deg, #031eb8, #4203b8)"
+    }
+    if (hh >= 22){
+        document.body.style.backgroundImage = "linear-gradient(140deg,#03015e,#220131)"
     }
 
 
